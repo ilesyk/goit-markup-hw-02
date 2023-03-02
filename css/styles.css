@@ -168,7 +168,7 @@ color: var(--cornflower);
 .link-contacts:active,
 .mail:active,
 .tel:active {
-    color: var(--brand-color);
+    color: var(--button-hover);
 }
 /*portfolio*/
 .portfolio-buttons {

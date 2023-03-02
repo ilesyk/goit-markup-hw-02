@@ -18,7 +18,7 @@ body {
 }
 /*header*/
 .logo {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Raleway';
 font-weight: 800;
 font-size: 18px;
 line-height: 1.33;
@@ -29,6 +29,7 @@ text-transform: uppercase;
 text-decoration: none;
 color: var(--brand-color);
 }
+
 .logo-color-header {
 color: var(--navy-blue);
 }
@@ -36,7 +37,7 @@ color: var(--navy-blue);
     list-style: none;
 }
 
-.link  {
+.link {
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -175,7 +176,8 @@ border: 1px solid var(--cornflower);
 border-radius: 4px;
 cursor: pointer;
 }
-.portfolio-buttons:hover {
+.portfolio-buttons:hover,
+.portfolio-buttons:focus {
 background-color: var(--button-hover);
 color: var(--white);
 }

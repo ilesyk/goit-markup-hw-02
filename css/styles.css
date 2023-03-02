@@ -42,8 +42,11 @@ font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-decoration-line: none;
+text-decoration: none;
 color: var(--navy-blue);
+}
+.contacts {
+    font-style: normal;
 }
 .mail-tel {
     font-style: normal;
@@ -101,7 +104,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
 }
-.advantages-text {
+.text-style {
     font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
@@ -133,13 +136,6 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--navy-blue);
-}
-.team-profesion {
-font-weight: 400;
-font-size: 16px;
-line-height: 1.5;
-letter-spacing: 0.02em;
-color: var(--text-color);
 }
 /*footer*/
 .footer {

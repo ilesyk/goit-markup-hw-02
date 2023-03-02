@@ -36,7 +36,7 @@ color: var(--navy-blue);
     list-style: none;
 }
 
-.link-portfolio, .link-studio, .link-contacts  {
+.link  {
     font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
@@ -45,7 +45,7 @@ letter-spacing: 0.02em;
 text-decoration-line: none;
 color: var(--navy-blue);
 }
-.mail, .tel {
+.mail-tel {
     font-style: normal;
 font-size: 16px;
 line-height: 1.5;
@@ -109,7 +109,7 @@ letter-spacing: 0.02em;
 .products-title, .team-title {
 font-weight: 700;
 font-size: 36px;
-line-height: 40px;
+line-height: 1.11;
 text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
@@ -158,16 +158,10 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--cornflower);
 }
-.link-studio:hover,
-.link-portfolio:hover,
-.link-contacts:hover,
-.mail:hover,
-.tel:hover,
-.link-studio:active,
-.link-portfolio:active,
-.link-contacts:active,
-.mail:active,
-.tel:active {
+.link:hover,
+.mail-tel:hover,
+.link:focus,
+.mail-tel:focus {
     color: var(--button-hover);
 }
 /*portfolio*/

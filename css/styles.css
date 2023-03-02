@@ -37,15 +37,17 @@ color: var(--navy-blue);
 .list {
     list-style: none;
 }
-
-.link {
-    font-family: 'Roboto', sans-serif;
+.navigation {
+font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 text-decoration: none;
 color: var(--navy-blue);
+}
+.link {
+    text-decoration: none;
 }
 .contacts {
     font-style: normal;
@@ -164,6 +166,7 @@ color: var(--cornflower);
 }
 /*portfolio*/
 .portfolio-buttons {
+    font-family: 'Roboto', sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
